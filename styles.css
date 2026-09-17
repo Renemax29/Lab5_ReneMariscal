@@ -73,7 +73,7 @@ h1, h2, h3 {
   margin-bottom: 8px;
 }
 
-/* Parte 6: foco del buscador y del comentario, agrupados */
+/* Parte 6 */
 input[type="search"]:focus, textarea:focus {
   outline: 2px solid #c9102f;
 }
