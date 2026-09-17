@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="author" content="René Mariscal 8-1015-1565">
+
+  <meta name="description" content="Real Madrid y sus 15 champions">
+
+  <title>Real madrid</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+ <header>
+<a href="#">
+      <img src="C:\Users\renes\Downloads\images.jpg"" alt="Logo de MiTube" width="120">
+    </a>
+    <form action="#" role="search">
+      <input type="search" name="q" placeholder="Buscar" required>
+      <button type="submit" class="btn">Buscar</button>
+    </form>
+
+<nav class="navbar">
+      <ul>
+        <li><a class="nav-link" href="#">Inicio</a></li>
+        <li><a class="nav-link" href="#">Suscripciones</a></li>
+        <li><a class="nav-link" href="#">Mi biblioteca</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="video-player">
+      <iframe width="640" height="360" src="C:\Users\renes\Downloads\Las.mp4" title="Video" allowfullscreen></iframe>
+
+      <h1>Real Madrid y sus 15 Champions League</h1>
+
+      <p><span>1,250,000 vistas</span> · <time datetime="2026-08-20">20 de agosto de 2026</time></p>
+
+      <div>
+        <img src="C:\Users\renes\Downloads\images.png" alt="Avatar del canal" width="48">
+        <p>Real Madrid Oficial</p>
+        <button type="button" class="btn">Suscribirse</button>
+      </div>
+
+      <p>
+        Un repaso histórico a las 15 Copas de Europa conquistadas por el Real Madrid,
+        el club más ganador de la competición. Desde la primera final en 1956 hasta
+        el título más reciente, revivimos los momentos clave de cada consagración.
+      </p>
+    </section>
+
+    <section>
+      <h2>Comentarios</h2>
+
+      <form action="#">
+        <label for="comentario">Agregar comentario</label>
+        <textarea id="comentario" name="comentario" rows="3" placeholder="Agrega un comentario público..." required></textarea>
+        <button type="submit" class="btn">Comentar</button>
+      </form>
+
+      <article>
+        <img src="C:\Users\renes\Downloads\cristiano-ronaldo-champions-league_17ak1udoiuj631316hlbv1bi1i.png" alt="Avatar de usuario" width="40">
+        <p>René Mariscal</p>
+        <time datetime="2026-09-09">9 de septiembre de 2026</time>
+        <p>Hala Madrid, El Mejor club de la historia.</p>
+      </article>
+
+      <article>
+        <img src="C:\Users\renes\Downloads\images (1).jpg" alt="Avatar de usuario" width="40">
+        <p>Yaser García</p>
+        <time datetime="2026-09-09">9 de septiembre de 2026</time>
+        <p>Excelente video, muy bien explicado cada título.</p>
+      </article>
+
+      <article>
+        <img src="C:\Users\renes\Downloads\98.webp" alt="Avatar de usuario" width="40">
+        <p>Adrian Maldonado</p>
+        <time datetime="2026-09-09">9 de septiembre de 2026</time>
+        <p>La final de kiev del 2018 sigue siendo mi favorita.</p>
+      </article>
+    </section>
+  </main>
+
+  <aside id="sugeridos">
+    <h2>Videos sugeridos</h2>
+
+    <article class="card">
+      <a href="#">
+        <img src="C:\Users\renes\Downloads\images (2).jpg" alt="Miniatura del video" width="168">
+      </a>
+      <h3>Los mejores goles de Cristiano Ronaldo en Champions</h3>
+      <p>Real Madrid Oficial</p>
+    </article>
+
+    <article class="card">
+      <a href="#">
+        <img src="C:\Users\renes\Downloads\images (3).jpg" alt="Miniatura del video" width="168">
+      </a>
+      <h3>La Décima: crónica de una noche histórica</h3>
+      <p>Real Madrid Oficial</p>
+    </article>
+
+    <article class="card">
+      <a href="#">
+        <img src="C:\Users\renes\Downloads\images (4).jpg" alt="Miniatura del video" width="168">
+      </a>
+      <h3>Mejores jugadas en champions</h3>
+      <p>Real Madrid Oficial</p>
+    </article>
+
+    <article class="card">
+      <a href="#">
+        <img src="C:\Users\renes\Downloads\images (5).jpg" alt="Miniatura del video" width="168">
+      </a>
+      <h3>Entrevista con la leyenda del club</h3>
+      <p>Real Madrid Oficial</p>
+    </article>
+  </aside>
+
+  <footer id="pie">
+    <ul>
+      <li><a href="#">Acerca de</a></li>
+      <li><a href="#">Prensa</a></li>
+      <li><a href="#">Copyright</a></li>
+      <li><a href="#">Términos</a></li>
+      <li><a href="#">Privacidad</a></li>
+    </ul>
+    <p>&copy; 2026 MiTube</p>
+  </footer>
+
+</body>
+</html>
