@@ -3,9 +3,9 @@
 
 /* Parte 1 y 3*/
 body {
-  background-color: #ffffff;
+  background-color: #101a35;
   font-family: Arial, sans-serif;
-  color: #1a1a1a;
+  color: #c9a13b;
 }
 
 /* Parte 3 */
@@ -24,7 +24,7 @@ body {
 
 /* Parte 4 */
 .nav-link {
-  color: #101a35;
+  color: #c9102f;
   text-decoration: none;
   font-weight: bold;
 }
@@ -54,7 +54,7 @@ body {
 /* Parte 5 */
 #sugeridos {
   width: 300px;
-  background-color: #faf6ea;
+  background-color: #101a35;
   padding: 12px;
 }
 
@@ -69,7 +69,7 @@ body {
 /* Parte 6 */
 h1, h2, h3 {
   font-family: Arial, sans-serif;
-  color: #101a35;
+  color: #c9a13b;
   margin-bottom: 8px;
 }
 
